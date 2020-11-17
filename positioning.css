@@ -1,0 +1,37 @@
+body{
+    font-size: 16px;
+    margin: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    font-size: 20px;
+}
+
+#relative{
+    background-color: lightgray;
+    height:200px ;
+
+}
+
+#absolute{
+    background-color: darkgray;
+    bottom:0;
+}
+
+#fixed{
+    background-color:lightgray;
+    position: fixed;
+    float: left;
+    top:0;
+    left:0;
+    padding:50px ;
+}
+
+.wrapper{
+margin:0 auto;
+width: auto;
+
+
+}
+
